@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Foodie's Delight</title>
+    <link rel="stylesheet" href="css/styles.css">
+    <link rel="stylesheet" href="css/bootstrap.css">
+</head>
+<body>
+    <div class="container-fluid">
+        <header class="m-0 d-flex row justify-content-center align-items-center p-3 bg-light">
+            <h2 class="col-12 col-lg-4 text-center brand-name m-0">FOODIE'S DELIGHT</h2>
+        
+            <div class="col-12 col-lg-4 d-flex justify-content-center mt-3 mt-lg-0 search-input-container">
+                <input type="text" id="search-input" class="form-control m-0 search-input" placeholder="Search...">
+                <button id="search" onclick="SearchMenu()" class="btn btn-primary">Search</button>
+            </div>
+        
+            <ul class="col-12 col-lg-4 d-flex justify-content-center mt-3 mt-lg-0 navs m-0">
+                <li class="me-2"><a href="#main-section">Menu</a></li>
+                <li class="me-2 counter-li">
+                    <a href="order.html">Order</a>
+                    <span id="counter">0</span>
+                </li>
+            </ul>
+            
+        </header>
+        
+        <main class=" container" id="main-section">
+            <section class="menu d-flex row p-0" id="menu-items">
+             
+            </section>
+        </main>
+
+        <section class="testimonials text-center my-5">
+            <h2>What Our Customers Say</h2>
+            <div class="testimonial my-3">
+                <p>"The spicy pasta is the best! Fast delivery and great service!"</p>
+                <span>★★★★★</span>
+            </div>
+            <div class="testimonial my-3">
+                <p>"Loved the salads and drinks! Fresh and tasty!"</p>
+                <span>★★★★★</span>
+            </div>
+        </section>
+    </div>
+    <script src="js/index.js"></script>
+</body>
+</html>

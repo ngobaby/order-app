@@ -1,0 +1,177 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  padding: 0;
+  margin: 0;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+header {
+  display: flex;
+  align-items: center; 
+  padding: 0 20px;
+  height: 80px; 
+  background-color: #f9f9f9;
+}
+
+
+h2 {
+  font-size: 2em;
+  display: flex;
+  align-items: center;
+  font-weight: bold;
+}
+
+.navs {
+  display: flex;
+  align-items: center;
+  padding: 0;
+  
+}
+.counter-li{
+  position: relative;
+}
+.navs li {
+  list-style-type: none;
+  font-size: larger;
+  font-weight: 600;
+  margin: 0 15px;
+  cursor: pointer;
+}
+
+.navs li a {
+  color: inherit;
+  text-decoration: none;
+}
+#counter{
+  height: 25px;
+  width: 25px;
+  background-color:#ff5722;
+  border-radius: 100%;
+  position: absolute;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  top: -6px;
+  right: -25px;
+}
+header input[type="text"] {
+  padding: 5px;
+  font-size: 1em;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  width: 80%;
+}
+
+button#search {
+  height: 40px;
+  width: 100px;
+  color: white; 
+  border: none; 
+  border-radius: 5px; 
+  font-size: 1em; 
+  font-weight: bold; 
+  background-color: #ff5722;
+  margin-left: 20px;
+  
+}
+
+
+#main-section{
+  margin-top: 90px;
+}
+section {
+  background-color: #030333;
+  padding: 20px 0;
+}
+
+.item {
+  padding: 20px;
+}
+
+.food {
+  width: 100%;
+  max-width: 300px;
+  background-color: white;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  text-align: center;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.food img {
+  width: 100%;
+  height: auto;
+  max-height: 200px;
+  object-fit: cover;
+  border-radius: 8px;
+  margin-bottom: 15px;
+}
+
+.food p {
+  font-size: 1.2em;
+  color: #333;
+  margin: 10px 0;
+}
+
+.food h5 {
+  font-size: 1.1em;
+  color: #ff5722;
+  font-weight: bold;
+  margin: 5px 0;
+}
+
+.food button {
+  padding: 10px 20px;
+  background-color: #ff5722;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  font-size: 1em;
+  margin-top: 10px;
+}
+
+.food button:hover {
+  background-color: green;
+  color: white;
+}
+
+
+.testimonials {
+  background-color: #f9f9f9;
+  padding: 50px 0;
+}
+
+.testimonials h2 {
+  font-size: 2.5em;
+  font-weight: bold;
+  margin-bottom: 30px;
+}
+
+.testimonial {
+  background-color: white;
+  border-radius: 10px;
+  padding: 20px;
+  max-width: 600px;
+  margin: 0 auto;
+}
+
+.testimonial p {
+  font-size: 1.2em;
+  color: #333;
+}
+
+.testimonial span {
+  color: #ff5722;
+  font-size: 1.5em;
+}
+@media (max-width: 786px){
+  
+}
+
+  
+  
